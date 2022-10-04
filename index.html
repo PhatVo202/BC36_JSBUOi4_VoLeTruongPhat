@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- BS4 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <div class="form-group w-50">
+        <h1 class="text-primary">Bai 1:Tính tiền lương nhân viên
+        </h1>
+        <input type="text" class="form-control mt-3 " placeholder="Nhập lương một ngày" id="salaryDay">
+        <input type="text" class="form-control mt-3 " placeholder="Số ngày làm" id="numberWorkingDay">
+        <button class="btn btn-outline-primary mt-3" onclick="ex1()">Tinh Luong</button>
+        <div class="alert alert-primary mt-2" role="alert">
+            KQ:<span id="results1"></span>
+        </div>
+    </div>
+
+    <div class="form-group w-50">
+        <h1 class="text-success">Bai 2:Tính giá trị trung bình
+        </h1>
+        <input type="text" class="form-control  mt-3" id="number1" placeholder="Nhập số thứ 1">
+        <input type="text" class="form-control  mt-3" id="number2" placeholder="Nhập số thứ 2">
+        <input type="text" class="form-control  mt-3" id="number3" placeholder="Nhập số thứ 3">
+        <input type="text" class="form-control  mt-3" id="number4" placeholder="Nhập số thứ 4">
+        <input type="text" class="form-control  mt-3" id="number5" placeholder="Nhập số thứ 5">
+        <button class="btn btn-outline-primary mt-3" onclick="ex2()">Tinh trung binh</button>
+        <div class="alert alert-primary mt-2" role="alert">
+            KQ:<span id="results2"></span>
+        </div>
+    </div>
+
+    <div class="form-group w-50">
+        <h1 class="text-info">Bai 3:Quy đổi tiền</h1>
+        <input type="text" class="form-control mt-3 " placeholder="Nhập số tiền USD" id="changeUSD">
+        <button class="btn btn-outline-primary mt-3" onclick="ex3()">Quy doi tien</button>
+        <div class="alert alert-primary mt-2" role="alert">
+            KQ: <span id="results3"></span> <span>VND</span>
+        </div>
+    </div>
+
+    <div class="form-group w-50">
+        <h1 class="text-body">Bai 4:Tính diện tích, chu vi hình chữ nhật</h1>
+        <input type="text" class="form-control mt-3 " placeholder="Nhập chiều dài" id="longs">
+        <input type="text" class="form-control mt-3 " placeholder="Nhập chiều rộng" id="widths">
+        <button class="btn btn-outline-primary mt-3" onclick="ex4()">Tinh</button>
+        <div class="alert alert-primary mt-2" role="alert">
+            KQ: <span id="results4"></span>
+        </div>
+    </div>
+
+    <div class="form-group w-50">
+        <h1 class="text-secondary">Bai 5:Tính tổng 2 ký số</h1>
+        <input type="text" class="form-control mt-3 " placeholder="Nhập số có 2 chữ số" id="addNumber">
+        <button class="btn btn-outline-primary mt-3" onclick="ex5()">Tinh tong</button>
+        <div class="alert alert-primary mt-2" role="alert">
+            KQ: <span id="results5"></span>
+        </div>
+    </div>
+
+
+    <!-- MAIN JS -->
+    <script src="./main.js"></script>
+
+    <!-- BS4 JS -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
